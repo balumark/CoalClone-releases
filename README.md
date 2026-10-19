@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><b>⬇ Download the latest version</b></a>
+  <a href="../../releases"><b>⬇ Download the latest version</b></a>
 </p>
 
 ---
@@ -76,7 +76,7 @@ nothing is sent anywhere.
 
 ## Download & install
 
-Get the files from the [**latest release**](../../releases/latest). No installer is needed.
+Get the files from the [**latest release**](../../releases). No installer is needed.
 
 ### Windows
 
