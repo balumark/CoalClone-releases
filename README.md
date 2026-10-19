@@ -80,20 +80,27 @@ Get the files from the [**latest release**](../../releases). No installer is nee
 
 ### Windows
 
-Download the Windows zip, unpack it, and run **`Coal Clone-<version>-portable.exe`**. That one
-file is the whole app, so you can put it anywhere, even on a USB stick.
+Download **`Coal Clone-<version>-portable.exe`** and run it. That one file is the whole app, so
+you can put it anywhere, even on a USB stick.
 
+- The app is not code-signed yet, so your **browser may block the download** as "dangerous" and
+  Windows may show *"Windows protected your PC"*. This is expected for an unsigned app, not a real
+  virus warning.
+  - **Browser:** in the downloads list, click the blocked file's **⋯ → Keep** (Chrome/Edge) to
+    let it finish.
+  - **First run:** if SmartScreen appears, click **More info → Run anyway**.
 - The first start takes a few seconds while the app unpacks itself.
-- The app is not code-signed yet, so Windows may show *"Windows protected your PC"*.
-  Click **More info → Run anyway**.
 
 ### macOS
 
-Download the macOS zip, unpack it, and open **`Coal Clone.app`**. You can drag it into
-*Applications* first. It runs on both Intel and Apple Silicon Macs.
+Pick the file for your Mac, unpack it, and open **`Coal Clone.app`**. You can drag it into
+*Applications* first.
 
-- The app is not signed with an Apple Developer ID yet, so macOS blocks the first launch.
-  **Right-click the app → Open → Open.** After that it starts normally.
+- **`Coal Clone-<version>-mac-arm64.zip`** — Apple Silicon Macs (M1 and newer).
+- **`Coal Clone-<version>-mac-x64.zip`** — Intel Macs.
+
+The app is not signed with an Apple Developer ID yet, so macOS blocks the first launch.
+**Right-click the app → Open → Open.** After that it starts normally.
 
 ### Requirements
 
